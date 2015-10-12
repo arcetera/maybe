@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 int main(int argc, char* argv[]) {
-    int i = 0;
-    char* maybe = "m";
-    if (argc > 1) {
-        maybe = argv[1];
-    }
-    while (i == 0) {
-        printf("%s\n", maybe);
+    srand(((unsigned)time(0));
+    while (1) {
+        if(rand() % 2) {
+            puts("y");
+        } else {
+            puts("n");
+        }
     }
 }
